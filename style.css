@@ -25,6 +25,7 @@ a{
   width: 90%; 
   max-width: 1200px;
   margin: 0 auto;
+
 }
 /* Container para ser reusado */
 
@@ -32,20 +33,22 @@ header {
   width: 100vw;
   height: 117px;
   background-color: var(--verde-header);
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-header .header-container{
+header .nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 117px;
+  
 }
 /* Se a tela for menor que 1200px, o container vai ter width de 90% do tamanho todo da tela; se for maior, terá o máximo de 1200px */
 
-header .header-container nav a{
+header .nav-container nav a{
   text-transform: uppercase;
   color: #FDFDFD;
   font-size: 20px;
   font-weight: 700;
-  margin: 20px;
+  margin: 15px;
 }
