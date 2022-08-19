@@ -1,0 +1,29 @@
+:root{
+  --verde-header: #2E948A;
+  --verde-footer: #419488;
+  --verde-azulado: #009688;
+  --branco: #fff;
+  --cinza-retangulo: #C4C4C4;
+  --cinza-bg: #F6F6F6;
+  --rosa: #FF4081;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 100vw;
+  height: 117px;
+  background-color: var(--verde-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
