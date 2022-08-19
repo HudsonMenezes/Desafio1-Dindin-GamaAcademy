@@ -1,2 +1,6 @@
-# Desafio1-Dindin-GamaAcademy
-Repositório do Grupo 8 para o primeiro desafio da turma Hacker#XP45 do curso Gama Academy onde iremos desenvolver uma plataforma de conteúdo sobre Educação Financeira para a empresa fictícia Dindin.
+# :construction: Projeto em Construção :construction:
+
+# Desafio #1 - Dindin - Gama Academy
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/99617992/185671979-e7ef81c5-6377-4d91-b18e-fcbab700e0cf.png)
