@@ -42,7 +42,7 @@ header .nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 117px;
+  height: 100%;
   width: 90%; 
   max-width: 1255px;
   margin: 0 auto;
@@ -56,6 +56,11 @@ header .nav-container nav a{
   font-size: 20px;
   font-weight: 700;
   margin: 15px;
+  transition: all 0.3s ease;
+}
+
+header .nav-container nav a:hover{
+  color: #C4C4C4;
 }
 
 /*  SECTION HEADER TERMINA AQUI */
@@ -83,13 +88,20 @@ header .nav-container nav a{
   margin-bottom: 38px;
 }
 
-.first-main .title button{
+.first-main .title .sabermais-btn{
   background-color: #fff;
   color: var(--rosa);
   border: 2px solid #FF4081;
   border-radius: 62px;
   padding: 8.5px 26px;
   font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.first-main .title .sabermais-btn:hover{
+  background-color: var(--rosa);
+  color: #fff;
 }
 
 .first-main img{
@@ -149,6 +161,13 @@ header .nav-container nav a{
   border: none;
   width: 230px;
   font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.second-main .container .ilustracao .ilustracao-btn:hover{
+  background-color: #f30957 ;
+  /* color: black; */
 }
 
 /*  SECTION 2º MAIN TERMINA AQUI */
