@@ -182,7 +182,8 @@ header .nav-container nav a:hover{
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  width: 1087px;
+  max-width: 1087px;
+  width: 90%;
   align-items: flex-start;
   position: relative;
   left: -25px;
@@ -235,7 +236,7 @@ header .nav-container nav a:hover{
 /*  MAIS CONTEÚDO COMEÇA AQUI */
 
 .mais-conteudo{
-  height: 730px;
+  height: 750px;
   background-color: var(--cinza-bg);
 }
 
@@ -243,7 +244,8 @@ header .nav-container nav a:hover{
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 1175px;
+  max-width: 1200px;
+  width: 90%;
 }
 
 .mais-conteudo .container h1{
@@ -302,5 +304,55 @@ header .nav-container nav a:hover{
   font-size: 18px;
 }
 
-
 /*  MAIS CONTEÚDO TERMINA AQUI */
+
+/*  FOOTER COMEÇA AQUI */
+
+footer{
+  width: 100vw;
+  
+  background-color: var(--verde-footer);
+}
+
+footer .container{
+  height: 207px;
+  width: 90%; 
+  max-width: 1255px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .footer-links{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container .footer-links a{
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Ubuntu';
+  color: #fff;
+}
+
+footer .container .footer-btn{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer .container .footer-btn button{
+  background-color: var(--verde-azulado);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 62px;
+  padding: 14px;
+  margin: 13px;
+  width: 289px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+/*  FOOTER TERMINA AQUI */
