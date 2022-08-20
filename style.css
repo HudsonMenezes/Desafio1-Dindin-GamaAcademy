@@ -461,6 +461,12 @@ main{
   .mais-conteudo .container h1{
     text-align: center;
   }
+
+  /* Página Cursos */
+
+  .cursos-container .curso-options img{
+    width: 250px;
+  }
 }
 
 @media (max-width:680px){
@@ -491,6 +497,16 @@ main{
   }
   .talk-about-us .grid-section .grid .grid-text{
     width: 270px;
+  }
+
+  /* Página Cursos */
+
+  .cursos-container .curso-options{
+    display: flex;
+    text-align: center;
+  }
+  .cursos-container .curso-options img{
+    display: none;
   }
 }
 
