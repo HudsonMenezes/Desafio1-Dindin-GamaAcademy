@@ -230,7 +230,77 @@ header .nav-container nav a:hover{
   font-weight: bold;
 }
 
-
-
-
 /*  O QUE FALAM SOBRE NÓS TERMINA AQUI */
+
+/*  MAIS CONTEÚDO COMEÇA AQUI */
+
+.mais-conteudo{
+  height: 730px;
+  background-color: var(--cinza-bg);
+}
+
+.mais-conteudo .container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 1175px;
+}
+
+.mais-conteudo .container h1{
+  margin-top: 91px;
+  font-weight: 700;
+  font-size: 37px;
+  color: var(--verde-azulado);
+  text-transform: uppercase;
+}
+
+.mais-conteudo .container .ver-posts{
+  width: 289px;
+  margin-bottom: 53px;
+}
+
+.mais-conteudo .conteudo-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 73px;
+  margin-bottom: 101px;
+}
+
+.mais-conteudo .ver-posts{
+  align-self: center;
+  background-color: #fff;
+  color: var(--rosa);
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+  padding: 8.5px 26px;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mais-conteudo .ver-posts:hover{
+  background-color: var(--rosa);
+  color: #fff;
+}
+
+.mais-conteudo .conteudo-container .conteudo{
+  width: 319px;
+}
+
+.mais-conteudo .conteudo-container .conteudo img{
+  margin-bottom: 11px;
+}
+
+.mais-conteudo .conteudo-container .conteudo .titulo{
+  font-weight: 700;
+  font-size: 27px;
+  color: var(--verde-azulado);
+}
+
+.mais-conteudo .conteudo-container .conteudo .descricao{
+  font-size: 18px;
+}
+
+
+/*  MAIS CONTEÚDO TERMINA AQUI */
