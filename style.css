@@ -23,6 +23,13 @@ a{
   text-decoration: none;
 }
 
+hr{
+  height: 5px;
+  background-color: var(--cinza-retangulo);
+  border: none;
+  border-radius: 20px;
+}
+
 .container{
   width: 90%;
   max-width: 1200px;
@@ -414,7 +421,5 @@ main{
 .cursos-container .curso-options .options-txt button:hover{
   background-color: #1a7e6f;
 }
-
-
 
 /* PÁGINA CURSOS.HTML TERMINA AQUI */
