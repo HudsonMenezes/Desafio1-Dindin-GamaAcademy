@@ -24,7 +24,8 @@ a{
 }
 
 .container{
-  width: 90%; 
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 /* Container para ser reusado */
@@ -354,3 +355,28 @@ footer .container .footer-btn button{
 }
 
 /*  FOOTER TERMINA AQUI */
+
+/* PÁGINA CURSOS.HTML COMEÇA AQUI */
+main{
+  font-family: 'Ubuntu';
+}
+.cursos-title h1{
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 81px;
+  color: var(--rosa);
+}
+
+.cursos-title p{
+  font-size: 20px;
+  color: #555555;
+}
+
+.cursos-container .curso-options{
+  display: grid; 
+  grid-template-columns: 1fr 2fr; 
+
+
+}
+
+/* PÁGINA CURSOS.HTML TERMINA AQUI */
