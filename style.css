@@ -36,9 +36,9 @@ hr{
   max-width: 1200px;
   margin: 0 auto;
 }
-/* Container para ser reusado */
+            /* Container para ser reusado */
 
-/*  SECTION HEADER COMEÇA AQUI */
+            /*  SECTION HEADER COMEÇA AQUI */
 
 header {
   width: 100vw;
@@ -72,9 +72,9 @@ header .nav-container nav a:hover{
   color: #C4C4C4;
 }
 
-/*  SECTION HEADER TERMINA AQUI */
+            /*  SECTION HEADER TERMINA AQUI */
 
-/*  SECTION 1º MAIN COMEÇA AQUI */
+            /*  SECTION 1º MAIN COMEÇA AQUI */
 
 .first-main{
   display: flex;
@@ -119,9 +119,9 @@ header .nav-container nav a:hover{
   /* height: 511px; */
 }
 
-/*  SECTION 1º MAIN TERMINA AQUI */
+            /*  SECTION 1º MAIN TERMINA AQUI */
 
-/*  SECTION 2º MAIN COMEÇA AQUI */
+            /*  SECTION 2º MAIN COMEÇA AQUI */
 
 .second-main{
   width: 100vw;
@@ -182,9 +182,9 @@ header .nav-container nav a:hover{
   color: var(--rosa);
 }
 
-/*  SECTION 2º MAIN TERMINA AQUI */
+            /*  SECTION 2º MAIN TERMINA AQUI */
 
-/*  O QUE FALAM SOBRE NÓS COMEÇA AQUI */
+            /*  O QUE FALAM SOBRE NÓS COMEÇA AQUI */
 
 .talk-about-us{
   /* height: 700px; */
@@ -245,9 +245,9 @@ header .nav-container nav a:hover{
   font-weight: bold;
 }
 
-/*  O QUE FALAM SOBRE NÓS TERMINA AQUI */
+            /*  O QUE FALAM SOBRE NÓS TERMINA AQUI */
 
-/*  MAIS CONTEÚDO COMEÇA AQUI */
+            /*  MAIS CONTEÚDO COMEÇA AQUI */
 
 .mais-conteudo{
   /* height: 750px; */
@@ -321,9 +321,9 @@ header .nav-container nav a:hover{
   font-size: 18px;
 }
 
-/*  MAIS CONTEÚDO TERMINA AQUI */
+            /*  MAIS CONTEÚDO TERMINA AQUI */
 
-/*  FOOTER COMEÇA AQUI */
+            /*  FOOTER COMEÇA AQUI */
 
 footer{
   width: 100vw;
@@ -368,9 +368,9 @@ footer .container .footer-btn button{
   cursor: pointer;
 }
 
-/*  FOOTER TERMINA AQUI */
+            /*  FOOTER TERMINA AQUI */
 
-/* PÁGINA CURSOS.HTML COMEÇA AQUI */
+            /* PÁGINA CURSOS.HTML COMEÇA AQUI */
 main{
   font-family: 'Ubuntu';
 }
@@ -429,9 +429,9 @@ main{
   background-color: #1a7e6f;
 }
 
-/* PÁGINA CURSOS.HTML TERMINA AQUI */
+            /* PÁGINA CURSOS.HTML TERMINA AQUI */
 
-/* RESPONSIVIDADE */
+            /* RESPONSIVIDADE */
 
 @media (max-width: 1100px){
   .first-main .title{
@@ -462,7 +462,7 @@ main{
     text-align: center;
   }
 
-  /* Página Cursos */
+            /* Página Cursos */
 
   .cursos-container .curso-options img{
     width: 250px;
@@ -510,7 +510,7 @@ main{
     width: 270px;
   }
 
-  /* Página Cursos */
+            /* Página Cursos */
 
   .cursos-container .curso-options{
     display: flex;
