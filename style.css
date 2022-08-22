@@ -17,6 +17,7 @@
   list-style: none;
   font-family: 'Ubuntu', sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a{
@@ -160,24 +161,25 @@ header .nav-container nav a:hover{
 
 .second-main .container .ilustracao p{
   font-size: 17px;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
 }
 
 .second-main .container .ilustracao .ilustracao-btn{
   background-color: var(--rosa);
   color: #fff;
   border-radius: 62px;
+  border: 2px var(--rosa) solid;
+  outline: none;
   padding: 15px 9px;
-  border: none;
   width: 230px;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 .second-main .container .ilustracao .ilustracao-btn:hover{
-  background-color: #f30957 ;
-  /* color: black; */
+  background-color: #fff;
+  color: var(--rosa);
 }
 
 /*  SECTION 2º MAIN TERMINA AQUI */
