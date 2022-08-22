@@ -325,13 +325,11 @@ header .nav-container nav a:hover{
 
 footer{
   width: 100vw;
-  
   background-color: var(--verde-footer);
 }
 
 footer .container{
-  height: 207px;
-  width: 90%; 
+margin: 30px auto;
   max-width: 1255px;
   display: flex;
   justify-content: space-between;
@@ -469,9 +467,20 @@ main{
   }
 }
 
+@media (max-width:850px){
+  footer .container img{
+    width: 200px;
+  }
+  footer .container .footer-btn button{
+    font-size: 14px;
+    width: 180px;
+  }
+}
+
+
 @media (max-width:680px){
   .first-main .title h1{
-    font-size: 32px;
+    font-size: 38px;
     width: 250px;
   }
   .first-main .title p{
@@ -518,5 +527,19 @@ main{
   }
   .talk-about-us .container .grid-section .grid img{
     display: none;
+  }
+}
+
+@media (max-width:580px){
+  footer .container{
+    flex-direction: column;
+  }
+  footer .container .footer-links{
+    flex-direction: row;
+    margin: 15px auto;
+  }
+  footer .container .footer-btn button{
+    margin: 4px;
+    width: 260px;
   }
 }
