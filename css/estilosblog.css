@@ -12,6 +12,10 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;
