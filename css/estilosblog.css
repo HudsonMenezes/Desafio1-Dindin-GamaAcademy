@@ -1,10 +1,17 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -111,40 +118,41 @@ main {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
     width: 100vw;
     background-color: #419488;
 }
 
-footer .container {
-    height: 207px;
-    width: 90%;
+footer .container{
+    margin: 30px auto;
     max-width: 1255px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    }
+
+footer .container .footer-links{
+        display: flex;
+        flex-direction: column;
 }
 
-footer .container .links {
-    display: flex;
-    flex-direction: column;
-}
-
-footer .container .links a {
+footer .container .footer-links a{
     font-size: 20px;
     padding: 5px;
     font-family: 'Ubuntu';
     color: #fff;
     text-decoration: none;
 }
+    
 
-footer .container .botao {
+
+footer .container .footer-btn{
     display: flex;
     flex-direction: column;
 }
 
-footer .container .botao button {
+
+
+footer .container .footer-btn button{
     background-color: #419488;
     color: #fff;
     border: 2px solid #fff;
@@ -154,6 +162,16 @@ footer .container .botao button {
     width: 289px;
     font-size: 20px;
     cursor: pointer;
+}
+
+@media (max-width:850px){
+    footer .container img{
+    width: 200px;
+    }
+    footer .container .footer-btn button{
+    font-size: 14px;
+    width: 180px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -190,14 +208,42 @@ footer .container .botao button {
         width: 100%;
     }
 
-    footer .links {
+    footer .footer-links {
         text-align: center;
         width: 100%;
     }
 
-    footer .botao {
+    footer .footer-btn {
         width: 110vh;
         align-items: center;
+    }
+}
+
+@media (max-width:680px){
+header{
+        height: 150px;
+}
+header .nav-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+}
+header .nav-container nav a{
+        font-size: 14px;
+}
+}
+
+@media (max-width:580px){
+    footer .container{
+    flex-direction: column;
+    }
+    footer .container .footer-links{
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px auto;
+    }
+    footer .container .footer-btn button{
+    margin: 4px;
+    width: 260px;
     }
 }
 

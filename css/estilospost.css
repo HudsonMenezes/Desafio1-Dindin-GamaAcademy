@@ -19,7 +19,7 @@ header .nav-container {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 90%;
     max-width: 1255px;
     margin: 0 auto;
 }
@@ -31,6 +31,7 @@ header .nav-container nav a {
     font-weight: 700;
     margin: 15px;
     text-decoration: none;
+
 }
 
 header .nav-container nav a:hover {
