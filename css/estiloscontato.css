@@ -65,7 +65,7 @@ header .nav-container nav a:hover{
 
 main{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -91,6 +91,10 @@ h1{
 
 form{
     width: 100%;
+}
+
+form input{
+  padding-left: 22px;
 }
 
 .nome{
@@ -132,6 +136,14 @@ form{
     Height: 32px;
     background: #FF4081;
     border-radius: 50px;
+    border: 2px #FF4081 solid;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.entrar:hover{
+  background-color: #fff;
+  color: var(--rosa);
 }
 
 .contato{
@@ -151,7 +163,6 @@ form{
 
 footer{
     width: 100vw;
-    
     background-color: var(--verde-footer);
   }
   
@@ -207,14 +218,18 @@ footer{
       margin: 4px;
       width: 260px;
     }
+    footer .container img{
+      padding-top: 20px;
+    }
   }
 
 
   @media (max-width:850px){
 
-    main{
-        flex-direction: column;
-    }
+main{
+    flex-direction: column;
+    margin-left: 50px;
+}
 
     footer .container img{
       width: 200px;
@@ -223,44 +238,57 @@ footer{
       font-size: 14px;
       width: 180px;
     }
+
+    header{
+      height: 150px;
+    }
+    header .nav-container{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    header .nav-container nav a{
+      font-size: 14px;
+    }
+
+    h1{
+      margin-top: 20px;
+    }
+
   }
 
   @media (max-width: 1190px){
     
-    .nome{
-    
-    Width: 80%;
-    Height: 32px;
-    }
+.nome{
+  Width: 80%;
+  Height: 32px;
+}
     
 .email{
-    
-    Width: 80%;
-    Height: 32px; 
+  Width: 80%;
+  Height: 32px; 
 }
     
 .text{
-    Width: 80%;
-    Height: 193px;
-    
+  Width: 80%;
+  Height: 193px; 
 }
     
 .entrar{
-    Width: 80%;
-    Height: 32px;
+  Width: 80%;
+  Height: 32px;
     
 }
     
-    .contato {
-        width: 80%;
-        margin: 0;
-        margin-top: 3em;
+.contato {
+  width: 80%;
+  margin: 0;
+  margin-top: 3em;
 }
 
-    .corpo{
-        width: 50%;
-        margin: 0;
-        margin-left: 2em;
-    }
-  }
+.corpo{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 2em;
+}
+}
   
