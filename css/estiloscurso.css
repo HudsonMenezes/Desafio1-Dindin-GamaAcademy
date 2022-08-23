@@ -17,6 +17,7 @@
     list-style: none;
     font-family: 'Ubuntu', sans-serif;
     /*overflow-x: hidden;*/
+    overflow-y: none;
 }
 
 a{
