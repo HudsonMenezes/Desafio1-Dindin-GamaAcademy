@@ -287,8 +287,13 @@ header .nav-container nav a:hover{
   margin-bottom: 101px;
 }
 
-.mais-conteudo .ver-posts{
+.mais-conteudo a{
   align-self: center;
+}
+
+.mais-conteudo a .ver-posts{
+  /* align-self: center; */
+  align-items: center;
   background-color: #fff;
   color: var(--rosa);
   border: 2px solid #FF4081;
