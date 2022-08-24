@@ -1,4 +1,4 @@
-# :heavy_check_mark: Projeto Terminado :heavy_check_mark:
+# :heavy_check_mark: Dindin - Projeto Terminado :heavy_check_mark:
 
 ## HandsOn #1 - Dindin - Gama Academy Fullstack Web Developer #45
 
@@ -13,4 +13,5 @@
 ### :fleur_de_lis: Demo do projeto pode ser acompanhada [Clicando Aqui](https://hudsonmenezes.github.io/Desafio1-Dindin-GamaAcademy/)
 
 
-![Screenshot_2](https://user-images.githubusercontent.com/99617992/185671979-e7ef81c5-6377-4d91-b18e-fcbab700e0cf.png)
+![Screenshot_3](https://user-images.githubusercontent.com/99617992/186418773-ac0f1409-fcc7-4e97-a584-f06cf616101c.png)
+e0cf.png)
