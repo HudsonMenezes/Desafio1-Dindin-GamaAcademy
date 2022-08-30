@@ -2,7 +2,7 @@
 
 ## HandsOn #1 - Dindin - Gama Academy Fullstack Web Developer #45
 
-### Realizado pelo grupo 08 onde foi os proposto um projedo de um site de Educação Financeira onde deveríamos praticar, e sermos valaiados, pelos conhecimentos adquiridos no primeiro mês de curso.
+### Realizado pelo grupo 08 onde foi os proposto um projeto de um site de Educação Financeira onde deveríamos praticar, e sermos valaiados, pelos conhecimentos adquiridos no primeiro mês de curso.
 
 ### Foi usado neste projeto: 
 #### :arrow_right: Técnicas de Acessibilidade e SEO
